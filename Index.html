@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serveur Officiel - La Boulangerie</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome pour les icônes -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Kanit', sans-serif;
+      background: url('fond.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #1E1E2F;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Overlay pour lisibilité */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 50, 0.55);
+      z-index: -1;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px 20px;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      color: #ddd;
+    }
+
+    .links {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .links a {
+      display: block;
+      margin: 15px auto;
+      padding: 15px 25px;
+      width: 260px;
+      background: #ff4757;
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .links a:hover {
+      background: #ff6b81;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: auto;
+      padding: 15px;
+      color: white;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bienvenue sur La Boulangerie 🥖</h1>
+    <p>Le serveur officiel - RAF</p>
+  </header>
+
+  <div class="links">
+    <a href="https://discord.gg/zNb9ZwEwPP" target="_blank"><i class="fab fa-discord"></i> Rejoindre le Discord</a>
+    <a href="https://www.tiktok.com/@lewrafou?_t=ZN-8z14Xo77NhO&_r=1" target="_blank"><i class="fab fa-tiktok"></i> TikTok @lewrafou</a>
+    <a href="https://www.tiktok.com/@wrafou2.0?_t=ZN-8z14cQyIdfT&_r=1" target="_blank"><i class="fab fa-tiktok"></i> TikTok @wrafou2.0</a>
+    <a href="https://www.youtube.com/@lewrafou/shorts" target="_blank"><i class="fab fa-youtube"></i> YouTube Lewrafou</a>
+    <!-- Lien Instagram pourra être ajouté ici plus tard -->
+  </div>
+
+  <footer>
+    © 2025 La Boulangerie - RAF
+  </footer>
+</body>
+</html>
